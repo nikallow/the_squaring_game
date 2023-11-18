@@ -62,8 +62,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "table_of_squares"
-version = "0.2.0"
+name = "the_squaring_game"
+version = "1.0.0"
 dependencies = [
  "rand",
 ]

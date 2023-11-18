@@ -1,7 +1,10 @@
 [package]
-name = "table_of_squares"
-version = "0.2.0"
+name = "the_squaring_game"
+version = "1.0.0"
 edition = "2021"
+authors = ["nikallow"]
+license = "MIT"
+repository = "https://github.com/nikallow/the_squaring_game"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
