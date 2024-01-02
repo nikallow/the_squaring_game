@@ -8,15 +8,11 @@ pub fn read_entered_number() -> u32 {
             .read_line(&mut entered_number)
             .expect("Failed to read line!");
 
-        match entered_number.trim().parse() {
-            Ok(num) => {
-                return num
-            },
-            Err(_) => {
-                println!("Enter the number!");
-                continue;
-            },   
+        if let Ok(num) = entered_number.trim().parse() {
+            return num;
+        } else {
+            println!("Enter the number!");
+            continue;
         }
     }
-    
 }
